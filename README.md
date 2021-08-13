@@ -14,17 +14,13 @@ Em conjunto com o GEB são aplicados conceitos de BDD.
 - SO Linux Ubuntu-18.04
 - VsCode
 
-
-# Como executar o projeto
-
-# Back end
-- Pré-requisitos: Java 8
-- Gradle: 4.4.1
-
 # Clonar repositório
 - git clone https://github.com/jferraz84/MeuTesteAutomatizado.git
 
 # Executar o projeto
+- Pré-requisitos: Java 8
+- Gradle: 4.4.1
+
 Para execução sem o navegador foi utilizado o comando:
 - gradle bdd -Penv=chromeheadless -Ptag=BuscarQuestoes
 
